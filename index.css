@@ -1,0 +1,166 @@
+#top_bar {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 0%;
+  left: 0%;
+}
+
+#video {
+  display: grid;
+  background-color: whitesmoke;
+  position: absolute;
+  width: 60%;
+  height: 90%;
+  top: 10%;
+  left: 0%;
+}
+
+#play_list {
+  background-color: whitesmoke;
+  position: absolute;
+  width: 40%;
+  height: 90%;
+  top: 10%;
+  left: 60%;
+}
+
+.thumb-image {
+  position: relative;
+  left: 10%;
+  padding: 1%;
+}
+
+#youtube-video {
+  grid-column: 1;
+  grid-row: 1;
+  transform: translateX(15%);
+  width: 90%;
+  height: 500px;
+  border: 0;
+}
+
+#top1 {
+  position: absolute;
+  left: 0%;
+}
+
+#top2 {
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  height: 100%;
+}
+
+#top3 {
+  position: absolute;
+  right: 0%;
+  align-content: center;
+}
+
+.form {
+  position: absolute;
+  float: left;
+}
+
+#serch-icon {
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+#search {
+  position: absolute;
+  width: 88%;
+  height: 60%;
+  left: 0%;
+  top: 10%;
+  float: left;
+}
+
+#button {
+  position: absolute;
+  top: 10%;
+  width: 10%;
+  height: 70%;
+  right: 0%;
+  float: left;
+}
+
+#icon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#title {
+  grid-column: 1;
+  grid-row: 2;
+  transform: translateX(5%);
+}
+
+#discription {
+  grid-column: 1;
+  grid-row: 3;
+  transform: translateX(5%);
+}
+
+#like_button {
+  grid-column: 1;
+  grid-row: 4;
+  transform: translateX(50%);
+  width: 80px;
+  height: 40px;
+  background-image: url("img/like_buttton.PNG");
+}
+
+#dislike_button {
+  grid-column: 2;
+  grid-row: 4;
+  transform: translateX(50%);
+  width: 80px;
+  height: 40px;
+  background-image: url("img/dislike_button.PNG");
+}
+
+#share_button {
+  grid-column: 3;
+  grid-row: 4;
+  transform: translateX(50%);
+  width: 80px;
+  height: 40px;
+  background-image: url("img/share_button.PNG");
+}
+
+#save_button {
+  grid-column: 3;
+  grid-row: 4;
+  transform: translateX(50%);
+  width: 80px;
+  height: 40px;
+  background-image: url("img/save_button.PNG");
+}
+
+.C1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* .C1 {
+  width: 10%;
+  height: 10%;
+
+} */
+
+.comment_block {
+  display: grid;
+  transform: translateX(40px);
+}
+
+.commentLine1 {
+  grid-column: 2;
+  grid-row: 1;
+}
